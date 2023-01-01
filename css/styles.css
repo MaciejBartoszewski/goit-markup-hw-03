@@ -84,6 +84,9 @@ header {
   text-decoration: none;
   background: var(--white-color);
   border-bottom: 1px solid #ececec;
+  width: 1600px;
+  height: 80px;
+  display: block;
 }
 footer {
   background: #2f303a;
@@ -107,6 +110,8 @@ ul {
   font-family: var(--family);
   text-decoration: none;
   color: #000000;
+  left: 15px;
+  top: 24px;
 }
 .webstudio2 {
   font-weight: 700;
@@ -182,6 +187,7 @@ h1 {
   text-transform: uppercase;
   color: var(--dark-color);
   list-style: none;
+  padding-bottom: 10px;
 }
 .ipsum {
   font-weight: 400;
@@ -216,4 +222,25 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--dark-color);
   text-transform: capitalize;
+}
+.container {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-set {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 30px;
+  padding: 0;
+  list-style: none;
+}
+.item {
+  flex-basis: calc((100% - 30px) / 4);
+  padding-top: 10px;
+}
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
