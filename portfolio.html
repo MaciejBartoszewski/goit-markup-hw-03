@@ -23,26 +23,28 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a class="webstudio" href="./index.html"><span class="web">Web</span>Studio</a>
-          <ul class="none">
-            <li><a class="menu" href="./index.html">Agencja</a></li>
-            <li><a class="menu" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="menu" href="">Kontakt</a></li>
+        <div class="menu-header">
+          <nav>
+            <a class="webstudio" href="./index.html"><span class="web">Web</span>Studio</a>
+            <ul class="menu-item">
+              <li><a class="menu" href="./index.html">Agencja</a></li>
+              <li><a class="menu" href="./portfolio.html">Portfolio</a></li>
+              <li><a class="menu" href="">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="menu-contacts">
+            <li>
+              <a class="contacts" href="mail:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a class="contacts" href="tel:+48111111111">+48 111 111 111</a></li>
           </ul>
-        </nav>
-        <ul>
-          <li>
-            <a class="contacts" href="mail:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="contacts" href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
       <section>
         <div class="container">
-          <ul>
+          <ul class="main-menu">
             <li>
               <button class="button-filters" type="button">Wszystkie</button>
             </li>
@@ -60,60 +62,76 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section>
         <div class="container">
-          <ul>
+          <ul class="project-group">
             <li class="projects">
               <img alt="Website with employees" src="./images/Technocrack.jpg" />
-              <h3>Technocrack</h3>
-              <p>Strona internetowa</p>
+              <div class="project-name">
+                <h3>Technocrack</h3>
+                <p>Strona internetowa</p>
+              </div>
             </li>
             <li class="projects">
               <img alt="New Orlean vs Golden Star graphic" src="./images/basketball.jpg" />
-              <h3>Grafika New Orlean vs Golden Star</h3>
-              <p>Dizajn</p>
+              <div class="project-name">
+                <h3>Grafika New Orlean vs Golden Star</h3>
+                <p>Dizajn</p>
+              </div>
             </li>
             <li class="projects">
               <img alt="Seafood restaurant logos" src="./images/Restaurant-Seafood.jpg" />
-              <h3>Restauracja Seafood</h3>
-              <p>Aplikacja</p>
+              <div class="project-name">
+                <h3>Restauracja Seafood</h3>
+                <p>Aplikacja</p>
+              </div>
             </li>
             <li class="projects">
               <img alt="Headphones" src="./images/Projekt-Prime.jpg" />
-              <h3>Projekt Prime</h3>
-              <p>Marketing</p>
+              <div class="project-name">
+                <h3>Projekt Prime</h3>
+                <p>Marketing</p>
+              </div>
             </li>
             <li class="projects">
               <img alt="Two designer boxes" src="./images/Projekt-Boxes.jpg" />
-              <h3>Projekt Boxes</h3>
-              <p>Aplikacja</p>
+              <div class="project-name">
+                <h3>Projekt Boxes</h3>
+                <p>Aplikacja</p>
+              </div>
             </li>
             <li class="projects">
               <img
                 alt="Website of Inspiration has no Borders"
                 src="./images/Inspiration-has-no-Borders.jpg"
               />
-              <h3>Inspiration has no Borders</h3>
-              <p>Strona internetowa</p>
+              <div class="project-name">
+                <h3>Inspiration has no Borders</h3>
+                <p>Strona internetowa</p>
+              </div>
             </li>
             <li class="projects">
               <img alt="Designer Magazin" src="./images/Magazyn-Limited-Edition.jpg" />
-              <h3>Magazyn Limited Edition</h3>
-              <p>Dizajn</p>
+              <div class="project-name">
+                <h3>Magazyn Limited Edition</h3>
+                <p>Dizajn</p>
+              </div>
             </li>
             <li class="projects">
               <img alt="Card with Projekt LAB logos" src="./images/Projekt-LAB.jpg" />
-              <h3>Projekt LAB</h3>
-              <p>Marketing</p>
+              <div class="project-name">
+                <h3>Projekt LAB</h3>
+                <p>Marketing</p>
+              </div>
             </li>
             <li class="projects">
               <img
                 alt="Growing Businnes website displayed on a laptop"
                 src="./images/Growing-Business.jpg"
               />
-              <h3>Growing Business</h3>
-              <p>Aplikacja</p>
+              <div class="project-name">
+                <h3>Growing Business</h3>
+                <p>Aplikacja</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -121,20 +139,22 @@
     </main>
     <footer>
       <div class="container">
-        <a class="webstudio2"><span class="web">Web</span>Studio</a>
-        <address>
-          <ul>
-            <li>
-              <a class="address" href="https://goo.gl/maps/8ssBXB5K36Uk4STv6" target="_blank">
-                m. Warszawa, Aleje Jerozolimskie 21
-              </a>
-            </li>
-            <li>
-              <a class="phone" href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li><a class="phone" href="tel:+48111111111">+48 111 111 111</a></li>
-          </ul>
-        </address>
+        <div class="menu-footer">
+          <a class="webstudio2"><span class="web">Web</span>Studio</a>
+          <address>
+            <ul class="menu-address">
+              <li>
+                <a class="address" href="https://goo.gl/maps/8ssBXB5K36Uk4STv6" target="_blank">
+                  m. Warszawa, Aleje Jerozolimskie 21
+                </a>
+              </li>
+              <li>
+                <a class="phone" href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li><a class="phone" href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
