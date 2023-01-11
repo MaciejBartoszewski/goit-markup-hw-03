@@ -16,13 +16,13 @@ header {
   width: 1600px;
   height: 80px;
 }
-.menu-header {
+.container-menu-header {
   display: flex;
   justify-content: space-between;
-  text-align: center;
   flex-direction: row;
-  align-items: center;
   padding-top: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .web {
   color: var(--blue-color);
@@ -193,45 +193,31 @@ ul {
   --gray-color: #757575;
   --family: 'Raleway';
 }
-.theme {
-  width: 1600px;
-  height: 600px;
+.container-main-page {
   background: #2f303a;
-}
-.main-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  padding-top: 106px;
+  text-align: center;
+  display: block;
 }
 h1 {
   text-transform: uppercase;
-  width: 696px;
-  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  display: flex;
+  padding: 200px 452px 30px;
 }
 .button-theme {
-  width: 200px;
-  height: 50px;
   background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
   border: none;
+  padding: 10px 41px 10px 42px;
+  margin-bottom: 200px;
 }
 .lorem {
   font-weight: 700;
@@ -262,13 +248,12 @@ h2 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  justify-content: space-between;
 }
 .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0;
+  padding: 0px;
   list-style: none;
   align-content: stretch;
 }
