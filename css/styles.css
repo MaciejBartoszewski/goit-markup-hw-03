@@ -2,6 +2,7 @@
 *::before,
 *::after {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 ul {
@@ -38,12 +39,7 @@ body {
   margin: 0 auto;
 }
 .section {
-  padding: 94px 0px;
-}
-.section-team {
-  padding: 94px 0px;
-  border-radius: 0px;
-  background-color: #f5f4fa;
+  padding: 94px 0;
 }
 h1 {
   text-transform: uppercase;
@@ -52,7 +48,7 @@ h1 {
   line-height: 60px;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  padding: 200px 452px 30px;
+  margin: 106px 0 30px;
 }
 h2 {
   font-weight: 700;
@@ -85,7 +81,7 @@ header {
 .menu-header {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0px 25px;
+  padding: 24px 0 25px;
 }
 .web {
   color: var(--blue-color);
@@ -96,7 +92,7 @@ header {
   line-height: 31px;
   letter-spacing: 0.03em;
   font-family: var(--family);
-  color: #000000;
+  color: #000;
   padding-right: 47px;
 }
 .menu {
@@ -106,19 +102,18 @@ header {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   cursor: pointer;
-  justify-content: space-between;
 }
 .menu-item {
   display: flex;
   column-gap: 46px;
   align-items: center;
-  padding-left: 0px;
-  }
+  padding-left: 0;
+}
 .menu-contacts {
   display: flex;
   column-gap: 50px;
   align-items: center;
- }
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -150,19 +145,15 @@ header {
   background: var(--blue-color);
   letter-spacing: 0.03em;
   color: var(--white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.button {
-  cursor: pointer;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-group {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  gap: 30px;
-  padding: 0px;
-  }
+  gap: 45px;
+}
 .projects {
   width: 370px;
   height: 404px;
@@ -179,10 +170,10 @@ header {
 .main-page {
   background: #2f303a;
   text-align: center;
- }
+}
 .button-theme {
   background: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-size: 16px;
   line-height: 30px;
@@ -190,7 +181,7 @@ header {
   color: var(--white-color);
   border: none;
   padding: 10px 41px 10px 42px;
-  margin-bottom: 200px;
+  margin-bottom: 106px;
 }
 .lorem {
   font-weight: 700;
@@ -212,8 +203,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0px;
-  align-content: stretch;
 }
 .item {
   flex-basis: calc((100% - 3 * 30px) / 4);
@@ -223,26 +212,28 @@ header {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  padding: 0px;
   justify-content: space-between;
 }
 .box-card {
   flex-basis: calc((100 - 2 * 30px) / 3);
+}
+.section-team {
+  padding: 94px 0;
+  background-color: #f5f4fa;
 }
 .team {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-  padding: 0;
 }
 .employees {
   max-width: 270px;
   height: 368px;
   background: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 3 * 30px) / 4);
 }
 .name {
@@ -256,16 +247,13 @@ header {
   justify-content: center;
 }
 .name-card {
-  flex-direction: column;
-  row-gap: 10px;
   padding-top: 30px;
   text-align: center;
 }
 footer {
   background: #2f303a;
-  padding: 60px 0px;
-  flex-direction: column;
-  }
+  padding: 60px 0;
+}
 .webstudio2 {
   font-weight: 700;
   font-size: 26px;
@@ -279,7 +267,7 @@ footer {
   row-gap: 9px;
   display: flex;
   flex-direction: column;
-  padding-left: 0px;
+  padding-left: 0;
 }
 .address {
   font-weight: 400;
